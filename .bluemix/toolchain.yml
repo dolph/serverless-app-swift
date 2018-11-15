@@ -1,13 +1,13 @@
 version: '2'
 template:
-  name: "Functions iosserverlessexample"
-  description: "Deploy your Cloud Functions for iosserverlessexample app."
+  name: "Functions serverlessappswift"
+  description: "Deploy your Cloud Functions for serverlessappswift app."
   required:
     - repo
     - build
 
 toolchain:
-  name: iosserverlessexample
+  name: serverlessappswift
 
 services:
 
@@ -50,7 +50,7 @@ form:
     schema:
       $ref: deploy.json
     parameters:
-      app-name: iosserverlessexample
+      app-name: serverlessappswift
       dev-space: "{{space}}"
       dev-organization: "{{organization}}"
       dev-region: "{{region}}"

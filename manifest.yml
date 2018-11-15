@@ -1,7 +1,7 @@
 # wskdeploy manifest file
 
 packages:
-  iosserverlessexample:
+  serverlessappswift:
     version: 1.0
     license: Apache-2.0
     inputs: 
@@ -39,8 +39,8 @@ packages:
         runtime: swift:3.1.1
         web-export: true
     apis:
-      iosserverlessexample:
-        iosserverlessexample:
+      serverlessappswift:
+        serverlessappswift:
           api/create:
             create:
               method: "POST"

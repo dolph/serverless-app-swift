@@ -1,6 +1,6 @@
 ![Cloud Functions](https://developer.ibm.com/code/wp-content/uploads/sites/118/2017/10/IBM-CLOUD-FUNCTIONS-35.png)
 
-## iosserverlessexample
+## serverlessappswift
 iOS Project using Swift Cloud Functions 
 
 [![](https://img.shields.io/badge/ibmcloud-powered-blue.svg)](https://bluemix.net)
@@ -97,7 +97,7 @@ Cloudant NoSQL DB provides access to a fully managed NoSQL JSON data layer that'
   <tbody>
     <tr>
       <td colspan="3">
-      URIs relative to https://openwhiskibm.com/api/v1/web/undefined_undefined/iosserverlessexample </td>
+      URIs relative to https://openwhisknot-used.net/api/v1/web/undefined_undefined/serverlessappswift </td>
     </tr>
     <tr>
       <td>Create</td>
