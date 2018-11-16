@@ -1,6 +1,7 @@
 ![Cloud Functions](https://developer.ibm.com/code/wp-content/uploads/sites/118/2017/10/IBM-CLOUD-FUNCTIONS-35.png)
 
-## serverlessappswift
+# Create and deploy a serverless application in Swift
+
 iOS Project using Swift Cloud Functions 
 
 [![](https://img.shields.io/badge/ibmcloud-powered-blue.svg)](https://bluemix.net)
