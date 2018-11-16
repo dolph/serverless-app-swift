@@ -7,9 +7,6 @@ This repository has code to create a serverless application using Swift and IBM 
 [![](https://img.shields.io/badge/ibmcloud-powered-blue.svg)](https://bluemix.net)
 [![Platform](https://img.shields.io/badge/platform-swift-lightgrey.svg?style=flat)](https://developer.ibm.com/swift/)
 
-### Summary
-iOS Project using Swift Cloud Functions
-
 ### Requirements
 - [IBM Cloud CLI](https://console.bluemix.net/docs/cli/reference/bluemix_cli/download_cli.html)
 
