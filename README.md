@@ -7,49 +7,58 @@ This repository has code to create a serverless application using Swift and IBM 
 [![](https://img.shields.io/badge/ibmcloud-powered-blue.svg)](https://bluemix.net)
 [![Platform](https://img.shields.io/badge/platform-swift-lightgrey.svg?style=flat)](https://developer.ibm.com/swift/)
 
-### Requirements
+## Requirements
+
 - [IBM Cloud CLI](https://console.bluemix.net/docs/cli/reference/bluemix_cli/download_cli.html)
-
 - Cloud Functions Plugin:
-
-      bx plugin install Cloud-Functions -r Bluemix
-
+  ```bash
+  bx plugin install Cloud-Functions -r Bluemix
+  ```
 - Whisk Deploy CLI [Download](https://github.com/apache/incubator-openwhisk-wskdeploy/releases)
-### Configuration
-The .bluemix directory contains all of the configuration files that the toolchain requires to function. At a minimum, the .bluemix directory must contain the following files:
 
-- toolchain.yml
-- deploy.json
-- pipeline.yml
+## Configuration
+
+The `.bluemix` directory contains all of the configuration files that the toolchain requires to function. At a minimum, the `.bluemix` directory must contain the following files:
+
+- `toolchain.yml`
+- `deploy.json`
+- `pipeline.yml`
 
 Detailed information regarding toolchain configuration can be found in our [docs](https://console.bluemix.net/docs/services/ContinuousDelivery/toolchains_custom.html#toolchains_custom).
 
 1. Update the toolchain with your desired changes.
 
 2. After updating the toolchain files with your desired changes push your application to restage the toolchain
-        bx app push
+   ```bash
+   bx app push
+   ```
 
-### Deployment
+## Deployment
+
 Your application is deployed using the IBM Continuous Delivery pipeline. Your toolchain provides an integrated set of tools to build, deploy, and manage your apps.
 
-#### Managing Cloud Functions and API Connect Manually
+### Managing Cloud Functions and API Connect Manually
 
-1. Download your code locally by navigate to your App dashboard from the [Apple Development Console](https://console.bluemix.net/developer/appledevelopment/apps) or [Web Apps Console](https://console.bluemix.net/developer/appservice/apps) and select `Download Code`.
+1. Download your code locally by navigate to your App dashboard from the [Apple Development Console](https://console.bluemix.net/developer/appledevelopment/apps) or [Web Apps Console](https://console.bluemix.net/developer/appservice/apps) and select **Download Code**.
 
 2. Login into the IBM Cloud
-
-        bx login -a <api> -o <org> -s <space>
+   ```bash
+   bx login -a <api> -o <org> -s <space>
+   ```
 
 3. **Local Deployment:** Execute the deploy script.  If you're on Mac or linux, you can run the `deploy.sh` helper script.
-
-        chmod +x deploy.sh
-        ./deploy.sh
+   ```
+   chmod +x deploy.sh
+   ./deploy.sh
+   ```
 
    Or, if you'd rather run the `wskdeploy` command directly, you use the `--param` command line flags to provide values for the `services.cloudant.database` and `services.cloudant.url` values.
 
-        /wskdeploy -m "manifest.yml" --param "services.cloudant.url" "<url>" --param "services.cloudant.database" "products"
+   ```bash
+   /wskdeploy -m "manifest.yml" --param "services.cloudant.url" "<url>" --param "services.cloudant.database" "products"
+   ```
 
-   Where &lt;url&gt; is the URL value from your Cloudant service credentials.
+   Where `<url>` is the URL value from your Cloudant service credentials.
 
    **IBM DevOps Deployment:** Once you have connected your app to IBM Devops by clicking on the "Deploy To Cloud" you need to add your Cloudant URL to the delivery pipeline environment varaibles. Note: this is a one-time action.
 
@@ -63,13 +72,17 @@ Your application is deployed using the IBM Continuous Delivery pipeline. Your to
 
 5. Review API for the actions in the IBM Cloud Console [Cloud Functions APIs](https://console.bluemix.net/openwhisk/apimanagement)
 
-### Services
+## Services
+
 This application is configured to connect with the following services:
 
-##### Cloudant
+### Cloudant
+
 Cloudant NoSQL DB provides access to a fully managed NoSQL JSON data layer that's always on. This service is compatible with CouchDB, and accessible through a simple to use HTTP interface for mobile and web application models.
-  ### Cloud Function Apis
-##### Cloudant Actions
+
+### Cloud Function APIs
+
+#### Cloudant Actions
 
 <table>
   <thead>
@@ -116,6 +129,7 @@ Cloudant NoSQL DB provides access to a fully managed NoSQL JSON data layer that'
     </tr>
   </tbody>
 </table>
-  ### License
-This package contains code licensed under the Apache License, Version 2.0 (the "License"). You may obtain a copy of the License [here](http://www.apache.org/licenses/LICENSE-2.0) and may also view the License in the LICENSE file within this package.
 
+## License
+
+This package contains code licensed under the Apache License, Version 2.0 (the "License"). You may obtain a copy of the License [here](http://www.apache.org/licenses/LICENSE-2.0) and may also view the License in the LICENSE file within this package.
