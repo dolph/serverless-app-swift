@@ -2,20 +2,10 @@
 
 # Create and deploy a serverless Swift application
 
-iOS Project using Swift Cloud Functions 
+This repository has code to create a serverless application using Swift and IBM Cloud Functions.
 
 [![](https://img.shields.io/badge/ibmcloud-powered-blue.svg)](https://bluemix.net)
 [![Platform](https://img.shields.io/badge/platform-swift-lightgrey.svg?style=flat)](https://developer.ibm.com/swift/)
-
-
-### Table of Contents
-* [Summary](#summary)
-* [Requirements](#requirements)
-* [Configuration](#configuration)
-* [Run](#run)
-* [Services](#services)
-* [Cloud Functions Apis](#cloud-functions-apis)
-* [License](#license)
 
 ### Summary
 iOS Project using Swift Cloud Functions 
