@@ -97,7 +97,7 @@ Cloudant NoSQL DB provides access to a fully managed NoSQL JSON data layer that'
     </tr>
     <tr>
       <td>Create</td>
-      <td>POST /database </td>
+      <td>POST /database</td>
       <td>Inserts an object</td>
     </tr>
     <tr>
@@ -107,7 +107,7 @@ Cloudant NoSQL DB provides access to a fully managed NoSQL JSON data layer that'
     </tr>
     <tr>
       <td>ReadAll</td>
-      <td>GET /database </td>
+      <td>GET /database</td>
       <td>Retrieves all objects</td>
     </tr>
     <tr>
@@ -117,7 +117,7 @@ Cloudant NoSQL DB provides access to a fully managed NoSQL JSON data layer that'
     </tr>
     <tr>
       <td>DeleteAll</td>
-      <td>DELETE /database </td>
+      <td>DELETE /database</td>
       <td>Deletes all objects</td>
     </tr>
     <tr>
