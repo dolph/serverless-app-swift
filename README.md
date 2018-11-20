@@ -12,7 +12,7 @@ This repository has code to create a serverless application using Swift and IBM 
   ```bash
   bx plugin install Cloud-Functions -r Bluemix
   ```
-- Whisk Deploy CLI [Download](https://github.com/apache/incubator-openwhisk-wskdeploy/releases)
+- [Whisk Deploy CLI](https://github.com/apache/incubator-openwhisk-wskdeploy/releases)
 
 ## Configuration
 
