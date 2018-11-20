@@ -7,11 +7,8 @@ This repository has code to create a serverless application using Swift and IBM 
 
 ## Requirements
 
-- [IBM Cloud CLI](https://console.bluemix.net/docs/cli/reference/bluemix_cli/download_cli.html)
-- Cloud Functions Plugin:
-  ```bash
-  bx plugin install Cloud-Functions -r Bluemix
-  ```
+- [IBM Cloud CLI](https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html)
+- Cloud Functions Plugin: `ibmcloud plugin install Cloud-Functions -r IBM Cloud`
 - [Whisk Deploy CLI](https://github.com/apache/incubator-openwhisk-wskdeploy/releases)
 
 ## Configuration
@@ -25,9 +22,9 @@ The `.bluemix` directory contains all of the configuration files that the toolch
 Detailed information regarding toolchain configuration can be found in our [docs](https://console.bluemix.net/docs/services/ContinuousDelivery/toolchains_custom.html#toolchains_custom).
 
 1. Update the toolchain with your desired changes.
-2. After updating the toolchain files with your desired changes push your application to restage the toolchain
+2. After updating the toolchain files with your desired changes push your application to restage the toolchain.
    ```bash
-   bx app push
+   ibmcloud app push
    ```
 
 ## Deployment
@@ -39,7 +36,7 @@ Your application is deployed using the IBM Continuous Delivery pipeline. Your to
 1. Download your code locally by navigate to your App dashboard from the [Apple Development Console](https://console.bluemix.net/developer/appledevelopment/apps) or [Web Apps Console](https://console.bluemix.net/developer/appservice/apps) and select **Download Code**.
 2. Login into the IBM Cloud
    ```bash
-   bx login -a <api> -o <org> -s <space>
+   ibmcloud login -a <api> -o <org> -s <space>
    ```
 3. **Local Deployment:** Execute the deploy script.  If you're on Mac or linux, you can run the `deploy.sh` helper script.
    ```
