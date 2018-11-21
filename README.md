@@ -24,7 +24,7 @@ When you have completed this code pattern, you will understand how to:
 ## Featured Technologies
 
 * [Serverless](https://www.ibm.com/cloud-computing/bluemix/openwhisk): An event-action platform that allows you to execute code in response to an event.
-* [Swift](https://developer.apple.com/swift/): An open-source programming language for Apple devices
+* [Swift](https://developer.apple.com/swift/): An open-source programming language for Apple devices,
 
 ## Steps
 
