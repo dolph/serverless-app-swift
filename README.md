@@ -121,10 +121,6 @@ You can then review the [Actions](https://console.bluemix.net/openwhisk/actions)
   </thead>
   <tbody>
     <tr>
-      <td colspan="3">
-      URIs relative to https://openwhisknot-used.net/api/v1/web/undefined_undefined/serverlessappswift </td>
-    </tr>
-    <tr>
       <td>Create</td>
       <td>POST /database</td>
       <td>Inserts an object</td>
