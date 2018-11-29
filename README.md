@@ -13,6 +13,8 @@ When you have completed this code pattern, you will understand how to:
 * Integrate this Backend for Frontend within your Mobile or Web apps
 * Manage the release of the Cloud Functions with a DevOps pipeline
 
+![](doc/source/images/architecture.png)
+
 ## Included Components
 
 * [Cloudant NoSQL DB](https://console.bluemix.net/catalog/services/cloudant): A fully managed data layer designed for modern web and mobile applications that leverages a flexible JSON schema.
