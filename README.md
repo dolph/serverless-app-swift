@@ -36,6 +36,8 @@ Deploy the application using the button above and jump directly to step 4 below.
 
 **OR**
 
+Deploy the application manually:
+
 1. [Install developer tools](#1-install-developer-tools)
 1. [Configure your DevOps pipeline](#2-configure-your-devops-pipeline)
 1. [Deploy your serverless application](#3-deploy-your-serverless-application)
