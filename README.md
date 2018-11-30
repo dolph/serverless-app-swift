@@ -32,7 +32,7 @@ When you have completed this code pattern, you will understand how to:
 
 [![](https://bluemix.net/deploy/button.png)](https://console.bluemix.net/developer/appledevelopment/create-project?starterKit=1838ca47-f3a9-32ac-95e1-7051f04b3a40&defaultLanguage=SWIFT&env_id=ibm%3Ayp%3Aus-south&tenantNavMode=false&defaultDeploymentToolchain=)
 
-Deploy the application using the button above and jump directly to step 4 below.
+Deploy the application automatically using the button above and jump directly to step 4 below.
 
 **OR**
 
