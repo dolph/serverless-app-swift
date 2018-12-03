@@ -70,7 +70,7 @@ ibmcloud login -a <api> -o <org> -s <space>
 Push your application to stage the toolchain:
 
 ```bash
-ibmcloud app push
+ibmcloud app push <your_app_name>
 ```
 
 ### 3. Deploy your serverless application
@@ -99,16 +99,6 @@ Or, if you'd rather run the `wskdeploy` command directly, you use the `--param` 
 ```
 
 Where `<url>` is the URL value from your Cloudant service credentials.
-
-##### IBM DevOps Deployment
-
-Once you have connected your app to IBM Devops you need to add your Cloudant URL to the delivery pipeline environment variables. Note: this is a one-time action.
-
-First click on the **Cloudant** service link when viewing the app dashboard.  Then click on **Service Credentials**, and then click on the **View Credentials** link for your Cloudant instance.  Copy the `url` value for use in the delivery pipeline.
-
-Next, go back to your app dashboard and click **View Toolchain**, then click on the **Delivery Pipeline**.   The delivery pipeline may have executed without any errors, but you need to specify the Cloudant URL before the Cloud Functions actions will operate as expected.  Next, click on the gear icon for the **DEPLOY** phase, then click **Configure Phase** and click **Environment Properties**.  Paste the Cloudant URL for the `DATABASE_URL` environment variable.
-
-Next, run your **DEPLOY** phase again to complete the deployment.
 
 ### 4. Integrate with your own frontend application
 
