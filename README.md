@@ -30,13 +30,7 @@ When you have completed this code pattern, you will understand how to:
 
 ## Steps
 
-[![](https://bluemix.net/deploy/button.png)](https://console.bluemix.net/developer/appledevelopment/create-project?starterKit=1838ca47-f3a9-32ac-95e1-7051f04b3a40&defaultLanguage=SWIFT&env_id=ibm%3Ayp%3Aus-south&tenantNavMode=false&defaultDeploymentToolchain=)
-
-Deploy the application automatically using the button above and jump directly to step 4 below.
-
-**OR**
-
-Deploy the application manually:
+> As an alternative to the steps below, you can [create this project as a starter kit on IBM Cloud](https://console.bluemix.net/developer/appledevelopment/create-project?starterKit=1838ca47-f3a9-32ac-95e1-7051f04b3a40&defaultLanguage=SWIFT&env_id=ibm%3Ayp%3Aus-south&tenantNavMode=false&defaultDeploymentToolchain=), which automatically provisions required services, and injects service credentials into a custom fork of this pattern. Then, you can skip directly to step 4 below.
 
 1. [Install developer tools](#1-install-developer-tools)
 1. [Configure your DevOps pipeline](#2-configure-your-devops-pipeline)
