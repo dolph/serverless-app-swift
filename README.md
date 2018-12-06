@@ -21,7 +21,7 @@ When you have completed this code pattern, you will understand how to:
 * [API Connect](http://developer.ibm.com/apiconnect/): Create and run secure APIs and microservices.
 * [Continuous Delivery](https://console.bluemix.net/catalog/services/continuous-delivery): Enable tool integrations that support your development, deployment, and operation tasks.
 * [GitLab](https://about.gitlab.com/): GitLab unifies issues, code review, CI, and CD into a single UI.
-* [AppID](https://console.bluemix.net/catalog/services/app-id): Use the IBM Bluemix App ID service to add authentication to your mobile and web apps and protect your back-end systems.
+* [AppID](https://console.bluemix.net/catalog/services/app-id): Use the IBM Cloud App ID service to add authentication to your mobile and web apps and protect your back-end systems.
 
 ## Featured Technologies
 
