@@ -39,12 +39,15 @@ When you have completed this code pattern, you will understand how to:
 
 ### 1. Install developer tools
 
-- [IBM Cloud CLI](https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html)
-- Cloud Functions Plugin:
-  ```bash
-  ibmcloud plugin install Cloud-Functions -r "IBM Cloud"
-  ```
-- [Whisk Deploy CLI](https://github.com/apache/incubator-openwhisk-wskdeploy/releases)
+Install the `ibmcloud` CLI binary by following the [IBM Cloud CLI](https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html) docs.
+
+Install the Cloud Functions plugin for the `ibmcloud` CLI:
+
+```bash
+ibmcloud plugin install Cloud-Functions -r "IBM Cloud"
+```
+  
+Finally, download the latest `wskdeploy` binary from the [Whisk Deploy releases](https://github.com/apache/incubator-openwhisk-wskdeploy/releases) page.
 
 ### 2. Configure your DevOps pipeline
 
