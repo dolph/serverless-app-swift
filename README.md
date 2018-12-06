@@ -46,7 +46,7 @@ Install the Cloud Functions plugin for the `ibmcloud` CLI:
 ```bash
 ibmcloud plugin install Cloud-Functions -r "IBM Cloud"
 ```
-  
+
 Finally, download the latest `wskdeploy` binary from the [Whisk Deploy releases](https://github.com/apache/incubator-openwhisk-wskdeploy/releases) page.
 
 ### 2. Configure your DevOps pipeline
