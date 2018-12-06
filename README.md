@@ -42,7 +42,7 @@ When you have completed this code pattern, you will understand how to:
 - [IBM Cloud CLI](https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html)
 - Cloud Functions Plugin:
   ```bash
-  ibmcloud plugin install Cloud-Functions -r IBM Cloud
+  ibmcloud plugin install Cloud-Functions -r "IBM Cloud"
   ```
 - [Whisk Deploy CLI](https://github.com/apache/incubator-openwhisk-wskdeploy/releases)
 
