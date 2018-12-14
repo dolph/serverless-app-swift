@@ -13,4 +13,4 @@ the GitHub repository. Generally, we expect two maintainers to review your pull
 request before it is approved for merging. For more details, see the
 [MAINTAINERS](MAINTAINERS.md) page.
 
-Contributions are subject to the [Developer Certificate of Origin, Version 1.1](https://developercertificate.org/) and the [Apache License, Version 2](http://www.apache.org/licenses/LICENSE-2.0.txt).
+Contributions are subject to the [Developer Certificate of Origin, Version 1.1](https://developercertificate.org/) and the [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
